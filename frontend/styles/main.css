@@ -1,0 +1,296 @@
+* {
+  font-family: 'Assistant', sans-serif;
+  color: #6e6e6e;
+}
+
+.navbar-brand img {
+  max-width: 140px;
+}
+
+.navbar-light {
+  padding: 0;
+}
+
+.navbar-light .navbar-nav {
+  background-color: #f3f3f3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  background-color: #f3f3f3;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #ff9a4d;
+}
+
+.btn-navbar-right {
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #ff9a4d;
+}
+
+.btn-login:hover {
+  background-color: #ffad6e;
+}
+
+header {
+  background: url("../image/bg1.png") no-repeat;
+  background-size: cover;
+  padding: 470px 0 165px;
+  margin-top: -100px;
+}
+
+header .section-stats {
+  margin-top: -300px;
+}
+
+header .section-stats h2 {
+  color: #ff9a4d;
+  font-weight: 800;
+}
+
+header .section-vision .vision-detail {
+  background-color: #051334;
+  padding-top: 48px;
+  padding-bottom: 140px;
+}
+
+header .section-vision .vision-detail h2, header .section-vision .vision-detail p {
+  color: #e2e2e2;
+}
+
+header .section-vision .vision-detail h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header .section-vision-search {
+  margin-top: -130px;
+}
+
+.section-experience, .section-product-head, .section-blog-head {
+  margin-top: 70px;
+}
+
+.section-experience h2, .section-product-head h2, .section-blog-head h2 {
+  font-weight: bold;
+  font-size: 35px;
+  color: #333333;
+}
+
+.section-step {
+  margin-top: 30px;
+}
+
+.section-step img {
+  max-width: 500px;
+}
+
+.section-step h2 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #333333;
+}
+
+.section-product {
+  min-height: 540px;
+}
+
+.section-product .section-product-home a:hover {
+  text-decoration: none;
+}
+
+.section-product .section-product-home .card-product {
+  min-height: 420px;
+  margin-top: 20px;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.section-product .section-product-home .card-product img {
+  width: auto;
+  height: 100%;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.section-product .section-product-home .card-product img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.section-product .section-product-home .card-product .foto-post {
+  width: 100%;
+  height: 420px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.section-product .section-product-home .card-product .foto-post img {
+  width: auto;
+  height: 100%;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.section-product .section-product-home .card-product .foto-post img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.section-product .section-product-home .card-product .type-home p {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ff9a4d;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-product .section-product-home .card-info {
+  margin-top: 20px;
+  min-height: 140px;
+}
+
+.section-product .section-product-home .card-info h3 {
+  font-weight: bold;
+  margin: 0;
+  color: #333333;
+}
+
+.section-product .section-product-home .card-info .house-price {
+  color: #ff9a4d;
+}
+
+.section-product .section-product-home .card-info p {
+  margin: 10px 0;
+}
+
+.section-blog-content {
+  margin-top: 20px;
+}
+
+.section-blog-content img {
+  max-width: 500px;
+}
+
+.section-blog-content a {
+  text-decoration: none;
+  color: #ff9a4d;
+  font-weight: bold;
+}
+
+.section-blog-content h4 {
+  font-weight: bold;
+  color: #333333;
+  margin-top: 20px;
+}
+
+.section-blog-content .section-content {
+  margin-bottom: 10px;
+}
+
+.section-blog-content .section-content .content-item a {
+  text-decoration: none;
+}
+
+.section-blog-content .section-content .content-item h4 {
+  font-weight: bold;
+  color: #333333;
+  margin-top: 0;
+}
+
+.section-blog-content .section-content .content-image img {
+  max-width: 120px;
+}
+
+.section-footer {
+  background-color: #04102b;
+  margin-top: 50px;
+}
+
+.section-footer .contact-info {
+  margin: 40px 0;
+}
+
+.section-footer .contact-info h2 {
+  font-weight: bold;
+  color: #e2e2e2;
+}
+
+.section-footer .contact-info h6 {
+  color: #a7a7a7;
+  font-size: 16px;
+}
+
+.section-footer .contact-info p {
+  color: #e2e2e2;
+  font-size: 16px;
+}
+
+.section-footer .contact-form {
+  background-color: #f3f3f3;
+  margin: 40px;
+  padding: 20px 30px;
+}
+
+.section-footer .contact-form h3 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.section-footer .contact-form .btn-ask {
+  width: 100%;
+  background-color: #ff9a4d;
+  border-radius: 0;
+  padding: 15px 0;
+  color: #e2e2e2;
+  font-weight: bold;
+}
+
+.section-footer .contact-form .btn-ask:hover {
+  background-color: #ffad6e;
+}
+
+.section-footer .pemanis {
+  background-color: #ff9a4d;
+  width: 200px;
+  height: 50%;
+  margin: 0 0 0 730px;
+  position: absolute;
+}
+
+.details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin: 30px 0;
+}
+
+.details-content .breadcrumb .breadcrumb-item.active {
+  font-weight: bold;
+}
+
+.details-content .card-details {
+  padding: 30px;
+  border-radius: 0;
+}
+
+.details-content .card-details h1 {
+  font-size: 26px;
+}
+
+.details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.details-content .card-details p {
+  font-size: 18px;
+}
+/*# sourceMappingURL=main.css.map */
