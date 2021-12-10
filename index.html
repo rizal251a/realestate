@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/library/bootstrap/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+<body>
+   
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <a href="#" class="navbar-brand">
+                <img src="frontend/image/logoestate.png" alt="Logo">
+            </a>
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto py-4">
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link active px-3">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link px-3">About</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link px-3">Features</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link px-3">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Mobile Version -->
+                <form action="#" class="form-inline d-sm-block d-lg-none">
+                    <button class="btn btn-login my-2 my-sm-0">Sign In</button>
+                </form>
+
+                <!-- Desktop Version -->
+                <form action="#" class="form-inline d-lg-block d-none px-5 py-4 my-lg-0" style="background-color: #f3f3f3;">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">Sign In</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <header>
+        <section class="section-stats" id="stats">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 col-lg-1 stats-detail">
+                        <h2>850</h2>
+                        <p>Property<br>build</p>
+                    </div>
+                    <div class="col-2 col-lg-1 stats-detail">
+                        <h2>22</h2>
+                        <p>Award<br>gained</p>
+                    </div>
+                    <div class="col-2 col-lg-1 stats-detail">
+                        <h2>21</h2>
+                        <p>Years<br>experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-vision" id="vision">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 col-md-6 pl-5 pr-6 vision-detail">
+                        <h2>Creating Modern
+                            Property Is Our
+                            Speciality
+                        </h2>
+                        <p>With a lot experience we will help you create the modern properties you want.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-vision-search" id="visionsearch">
+            <div class="container">
+                <div class="row vision-search ml-4 col-10 col-md-8 bg-white">
+                    <div class="input-group mb-1 mt-1 col-5 col-md-3">
+                        <div class="col input-group-prepend">
+                            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Location</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                    </div>
+                    <div class="input-group mb-1 mt-1 col-5 col-md-3">
+                        <div class="col input-group-prepend">
+                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Property Type</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                    </div>
+                    <div class="input-group mb-1 mt-1 col-5 col-md-3">
+                        <div class="col input-group-prepend">
+                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Average Price</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                    </div>
+                    <form action="#" class="form-inline d-lg-block px-5 py-4 my-lg-0 col-5 col-md-3">
+                        <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">Search</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- Experience -->
+        <section class="section-experience">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 row">
+                        <h2>With 21 Years Of <br>Experience We Are Ready <br>To Help You</h2>
+                    </div>
+                    <div class="col-md-6 col-auto align-items-center row">
+                        <p>
+                            With our experience, we are ready to help you create a modern property with an easy step.
+                        </p>
+                        <form action="#" class="form-inline d-lg-block my-lg-0">
+                            <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">Learn More</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Experience -->
+
+        <!-- Step to Choose -->
+        <section class="section-step">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 row">
+                        <img src="frontend/image/step.jpg" alt="#">
+                    </div>
+                    <div class="col-lg-6 row mt-lg-0 mt-3">
+                        <h2>1. Choose Your Type</h2>
+                        <p>First step look for what property model you like and also choose the location. If you have, please choose the type of property tou like</p>
+                        <h2>2. See The Property Directly</h2>
+                        <p>If you have found the property model that you like, please contact the number listed then you can set the time to see the property tou want directly</p>
+                        <h2>3. Easy Payment</h2>
+                        <p>If you feel that you are in accordance with the property model and have seen the property directly then make a payment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Step to Choose -->
+
+        <!-- Product -->
+        <section class="section-product-head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>
+                            We Provide The Best Based On 
+                            The Property That You Like
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-product">
+            <div class="container">
+                <div class="row justify-content-center section-product-home">
+                    <!-- <div class="col-sm-6 col-md-5 col-lg-4">
+                        <a href="#">
+                            <div class="card-product d-flex flex-column">
+                                <div class="foto-post">
+                                    <img src="frontend/image/picture.png" alt="">
+                                </div>
+                                <div class="type-home mt-auto bg-white col-5">
+                                    <p>House</p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="card-info">
+                            <h3>North Franklin Canyon</h3>
+                            <p>Jl. St Piterxim, Delgera</p>
+                            <h3 class="house-price">$1,788,788</h3>
+                        </div>
+                    </div> -->
+                    <div class="col-sm-6 col-md-5 col-lg-4">
+                        <a href="#">
+                            <div class="card-product d-flex flex-column">
+                                <img src="frontend/image/picture.png" alt="">
+                                <div class="type-home mt-auto bg-white col-5">
+                                    <p>House</p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="card-info">
+                            <h3>North Franklin Canyon</h3>
+                            <p>Jl. St Piterxim, Delgera</p>
+                            <h3 class="house-price">$1,788,788</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-5 col-lg-4">
+                        <a href="#">
+                            <div class="card-product d-flex flex-column">
+                                <img src="frontend/image/picture1.png" alt="">
+                                <div class="type-home mt-auto bg-white col-5">
+                                    <p>Apartment</p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="card-info">
+                            <h3>Forested Garden</h3>
+                            <p>Jl. Rose St. Conery, Luerom</p>
+                            <h3 class="house-price">$2,190,000</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-5 col-lg-4">
+                        <a href="#">
+                            <div class="card-product d-flex flex-column">
+                                <img src="frontend/image/picture2.png" alt="">
+                                <div class="type-home mt-auto bg-white col-5">
+                                    <p>House</p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="card-info">
+                            <h3>Estetic of Lili</h3>
+                            <p>Jl. Wojlavia, Venena</p>
+                            <h3 class="house-price">$4,320,200</h3>
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm-6 col-md-5 col-lg-4">
+                        <a href="#">
+                            <div class="card-product d-flex flex-column" style="background-image: url(frontend/image/picture2.png);">
+                                <div class="type-home mt-auto bg-white col-5">
+                                    <p>House</p>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="card-info">
+                            <h3>Estetic of Lili</h3>
+                            <p>Jl. Wojlavia, Venena</p>
+                            <h3 class="house-price">$4,320,200</h3>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- Product -->
+
+        <!-- Latest Blog -->
+        <section class="section-blog-head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Always Check Our <br> Latest Blog</h2>
+                    </div>
+                    <div class="col-md-6 m-auto">
+                        We always update our blog every day, always check our latest blog so you can get update on our latest news and look forward to interesting thing.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-blog-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="frontend/image/blog.jpg" alt="#">
+                        <h4>This is the appearance of the interior of the newest property unit</h4>
+                        <p>The property, which will be officially sold in early 2021, shows part of the living room with a minimalist concept. <a href="#">Read More</a></p>
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <div class="section-content row">
+                            <div class="content-item col-8">
+                                <a href="#"><h4>Team conduct discussions related to the new unit</h4></a>
+                                <p>Wanda Culary</p>
+                            </div>
+                            <div class="content-image col-4">
+                                <img src="frontend/image/discuss.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-content row">
+                            <div class="content-item col-8">
+                                <a href="#"><h4>Modern interior for your inspiration</h4></a>
+                                <p>Wanda Culary</p>
+                            </div>
+                            <div class="content-image col-4">
+                                <img src="frontend/image/discuss.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-content row">
+                            <div class="content-item col-8">
+                                <a href="#"><h4>Fantastic! This villa sells for 10 luxury cars</h4></a>
+                                <p>Wanda Culary</p>
+                            </div>
+                            <div class="content-image col-4">
+                                <img src="frontend/image/discuss.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="section-content row">
+                            <div class="content-item col-8">
+                                <a href="#"><h4>Team conduct discussions related to the new unit</h4></a>
+                                <p>Wanda Culary</p>
+                            </div>
+                            <div class="content-image col-4">
+                                <img src="frontend/image/discuss.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Latest Blog -->
+    </main>
+
+    <footer class="section-footer">
+        <div class="container">
+            <div class="pemanis d-none d-lg-block">
+        
+            </div>
+            <div class="row">
+                <div class="col-md-6 contact-info">
+                    <h2>Contact Us <br> For More Info</h2><br>
+                    <h6>Mail</h6>
+                    <p>info-3group@gmail.com</p>
+                    <h6>Phone</h6>
+                    <p>+(1) 3721-2771</p>
+                    <h6>Address</h6>
+                    <p>3001 Cambridge CU. <br>Syncase, Gromburg <br>67144</p>
+                    <h6>Social Media</h6>
+                    <a href="#"><span class="material-icons text-white">
+                        facebook
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-5 contact-form">
+                    <h3>What Do You Want To Ask</h3>
+                    <form>
+                        <div class="form-group">
+                          <label for="InputName">Name</label>
+                          <input type="text" class="form-control" id="InputName" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                          <label for="InputEmail">Email address</label>
+                          <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="FormControlMessage">Message</label>
+                            <textarea class="form-control" id="FormControlMessage" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-ask">Send Now</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center pb-3">
+                <div class="col-auto text-white">
+                    2021 Copyright 3Group | All rights reserved | Made in Jakarta
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="frontend/library/jquery/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="frontend/library/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
